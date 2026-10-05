@@ -1,0 +1,1 @@
+# 6.sinif_portfolyo_rehberi
