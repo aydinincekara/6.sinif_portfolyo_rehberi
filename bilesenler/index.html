@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bileşenler ve renkler | 6. Sınıf Portfolyo Rehberi</title>
+<meta name="description" content="Sitede kullanılan renkler, yazı tipleri ve yeniden kullanılabilir bileşenler. Yeni sayfa yazarken buradaki örnekleri kopyalayabilirsiniz.">
+<link rel="canonical" href="https://aydinincekara.github.io/portfolyo-rehberi/bilesenler/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="6. Sınıf Portfolyo Rehberi">
+<meta property="og:title" content="Bileşenler ve renkler | 6. Sınıf Portfolyo Rehberi">
+<meta property="og:description" content="Sitede kullanılan renkler, yazı tipleri ve yeniden kullanılabilir bileşenler. Yeni sayfa yazarken buradaki örnekleri kopyalayabilirsiniz.">
+<meta name="theme-color" content="#1F3A5F">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem("tema");
+      if (t === "koyu" || t === "acik") document.documentElement.setAttribute("data-tema", t);
+    } catch (e) {}
+  })();
+</script>
+
+
+<link rel="stylesheet" href="../assets/css/tokens.css">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/components.css">
+<link rel="stylesheet" href="../assets/css/print.css" media="print">
+
+</head><body data-bolum="kilavuz" class="sayfa-standart">
+<a class="atla" href="#ana">İçeriğe geç</a>
+<header class="ust">
+  <div class="ust__ic kap">
+    <a class="marka" href="../index.html">
+      <svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false" fill="none" stroke-width="5" stroke-linecap="round">
+  <path d="M21.77 5.61A14.5 14.5 0 0 1 34.39 18.23" stroke="var(--yz)"/>
+  <path d="M34.39 21.77A14.5 14.5 0 0 1 21.77 34.39" stroke="var(--bk)"/>
+  <path d="M18.23 34.39A14.5 14.5 0 0 1 5.61 21.77" stroke="var(--d3)"/>
+  <path d="M5.61 18.23A14.5 14.5 0 0 1 18.23 5.61" stroke="var(--hm)"/>
+  <circle cx="20" cy="20" r="4.2" fill="var(--murekkep)" stroke="none"/>
+</svg>
+
+      <span class="marka__metin">
+        <span class="marka__ad">6. Sınıf Portfolyo Rehberi</span>
+        <span class="marka__kurum">Küçükçekmece Çocuk Üniversitesi</span>
+      </span>
+    </a>
+
+    <button class="menu-dugme" type="button" aria-expanded="false" aria-controls="ana-menu">
+      <span class="menu-dugme__cizgi" aria-hidden="true"></span>
+      <span class="gizli">Menüyü aç</span>
+    </button>
+
+    <nav id="ana-menu" class="menu" aria-label="Ana menü">
+      <ul>
+        <li data-bolum="kilavuz"><a href="../kilavuz/index.html">Kılavuz</a></li>
+        <li data-bolum="portfolyo"><a href="../ornek-portfolyo/index.html">Örnek portfolyo</a></li>
+      </ul>
+      <button class="tema-dugme" type="button" data-tema-dugme aria-label="Koyu temaya geç">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path class="ay" d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/><circle class="gunes" cx="12" cy="12" r="4.2"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="serit">
+  <div class="serit__ic kap">
+    <p><span class="serit__ad">Kılavuz</span><span class="serit__aciklama">Portfolyo nasıl hazırlanır? Kurallar, rubrik ve formlar.</span></p>
+    <a class="serit__gec" href="../ornek-portfolyo/index.html">Örnek portfolyoya geç</a>
+  </div>
+</div>
+<main id="ana" tabindex="-1">
+<div class="belge kap">
+  <aside class="belge__sol">
+    
+  </aside>
+
+  <article class="belge__icerik">
+    <header class="belge__ust">
+      <ol class="yol" aria-label="Konumunuz">
+        <li><a href="../index.html">Ana sayfa</a></li><li>Tasarım sistemi</li>
+        <li aria-current="page">Bileşenler ve renkler</li>
+      </ol>
+      <h1>Bileşenler ve renkler</h1>
+      <p class="belge__ozet">Sitede kullanılan renkler, yazı tipleri ve yeniden kullanılabilir bileşenler. Yeni sayfa yazarken buradaki örnekleri kopyalayabilirsiniz.</p>
+      
+      <div class="belge__araclar">
+        <button type="button" class="dugme dugme--sessiz" data-yazdir>Yazdır</button>
+      </div>
+    </header>
+
+    <div class="metin">
+      <aside class="kutu kutu--bilgi"><p class="kutu__baslik">Bu sayfa ne işe yarar?</p>
+<div class="kutu__icerik"><p>Siteye yeni sayfa ekleyecek öğretmenler içindir. Her bileşenin altında, Markdown sayfasına yapıştırılacak kodu bulunur. Bu sayfa üst menüde görünmez; alt bantta bağlantısı vardır.</p>
+</div>
+</aside>
+
+<h2 id="renkler">Renkler</h2>
+
+<p>Ana renk mürekkep mavisidir. Dört atölyenin her birinin kendi rengi vardır ve bir sayfanın atölyesi belirlendiğinde (<code class="language-plaintext highlighter-rouge">atolye: yz</code>) başlık ayraçları, tablo başlıkları ve bağlantı vurguları o renge döner. Renkler Word belgeleriyle aynıdır.</p>
+
+<ul class="renkler">
+<li class="renk" style="--r: var(--murekkep)"><div class="renk__ornek"></div><p class="renk__ad">Mürekkep</p><p class="renk__kod">#1F3A5F</p></li>
+<li class="renk" style="--r: var(--kagit)"><div class="renk__ornek"></div><p class="renk__ad">Kâğıt</p><p class="renk__kod">#F7F9FC</p></li>
+<li class="renk" style="--r: var(--cizgi)"><div class="renk__ornek"></div><p class="renk__ad">Çizgi</p><p class="renk__kod">#D5DDE7</p></li>
+<li class="renk" style="--r: var(--yz)"><div class="renk__ornek"></div><p class="renk__ad">YZ, mor</p><p class="renk__kod">#6A4C93</p></li>
+<li class="renk" style="--r: var(--bk)"><div class="renk__ornek"></div><p class="renk__ad">BK, deniz yeşili</p><p class="renk__kod">#1B8A7E</p></li>
+<li class="renk" style="--r: var(--d3)"><div class="renk__ornek"></div><p class="renk__ad">3D, turuncu</p><p class="renk__kod">#C8641A</p></li>
+<li class="renk" style="--r: var(--hm)"><div class="renk__ornek"></div><p class="renk__ad">HM, gök mavisi</p><p class="renk__kod">#2E7DAF</p></li>
+<li class="renk" style="--r: var(--kural)"><div class="renk__ornek"></div><p class="renk__ad">Kural, kehribar</p><p class="renk__kod">#9A6412</p></li>
+</ul>
+
+<h2 id="yazı-tipleri">Yazı tipleri</h2>
+
+<p>Başlıklar <strong>Bricolage Grotesque</strong>, gövde metni <strong>Lexend</strong>, kodlar <strong>JetBrains Mono</strong> ile yazılır. Lexend okuma kolaylığı için tasarlanmış bir yazı tipidir; geniş harf aralığı genç okurların satırı takip etmesini kolaylaştırır. Üçü de açık lisanslıdır ve sitenin içinden yüklenir, dışarıya istek gönderilmez.</p>
+
+<h3 id="üçüncü-düzey-başlık">Üçüncü düzey başlık</h3>
+
+<p>Gövde metni 17 piksel, satır uzunluğu en fazla 66 karakterdir. Uzun bölümler bu sınır sayesinde yorulmadan okunur.</p>
+
+<h2 id="atölye-etiketleri">Atölye etiketleri</h2>
+
+<p><span class="atolye-etiketi" data-atolye="yz"><span class="atolye-etiketi__kod">YZ</span></span>
+ <span class="atolye-etiketi" data-atolye="bk"><span class="atolye-etiketi__kod">BK</span></span>
+ <span class="atolye-etiketi" data-atolye="d3"><span class="atolye-etiketi__kod">3D</span></span>
+ <span class="atolye-etiketi" data-atolye="hm"><span class="atolye-etiketi__kod">HM</span></span></p>
+
+<p><span class="atolye-etiketi atolye-etiketi--uzun" data-atolye="bk"><span class="atolye-etiketi__kod">BK</span><span class="atolye-etiketi__ad">Bilim ve Keşif Laboratuvarı (Astronomi)</span></span></p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>atolye-etiketi.html<span class="w"> </span><span class="na">kod</span><span class="o">=</span><span class="s2">"bk"</span><span class="w"> </span><span class="na">uzun</span><span class="o">=</span><span class="kc">true</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div>
+
+<h2 id="kutular">Kutular</h2>
+
+<aside class="kutu kutu--bilgi"><p class="kutu__baslik">Kısaca</p>
+<div class="kutu__icerik"><p>Her öğrenci <strong>tek bir portfolyo</strong> hazırlar; içinde <strong>iki atölye bölümü</strong> bulunur.</p>
+</div>
+</aside>
+
+<aside class="kutu kutu--kural"><p class="kutu__baslik">Altın kural</p>
+<div class="kutu__icerik"><p>Portfolyoda <strong>çok iş</strong> değil, <strong>iyi anlatılmış iş</strong> önemlidir.</p>
+</div>
+</aside>
+
+<aside class="kutu kutu--olumlu">
+<div class="kutu__icerik"><p>Hata sayfası puan kaybettirmez, <strong>puan kazandırır</strong>.</p>
+</div>
+</aside>
+
+<aside class="kutu kutu--dikkat"><p class="kutu__baslik">Güvenlik</p>
+<div class="kutu__icerik"><p>Güneşe asla filtresiz bakma; filtresiz fotoğraf da çekme.</p>
+</div>
+</aside>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>callout.html<span class="w"> </span><span class="na">tur</span><span class="o">=</span><span class="s2">"kural"</span><span class="w"> </span><span class="na">baslik</span><span class="o">=</span><span class="s2">"Altın kural"</span><span class="w"> </span><span class="na">icerik</span><span class="o">=</span><span class="s2">"Metin **kalın** olabilir."</span><span class="w"> </span><span class="cp">%}</span>
+tur: bilgi | kural | olumlu | dikkat
+</code></pre></div></div>
+
+<h2 id="tablo">Tablo</h2>
+
+<p>Markdown tablosu yazmanız yeterlidir; dar ekranda kendiliğinden yatay kaydırılır. Başlık satırı sayfanın atölye rengini alır.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Seviye</th>
+      <th>Anlamı</th>
+      <th>Gösterge</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1, Duydum</td>
+      <td>Bu beceriyi duydum ama henüz denemedim.</td>
+      <td><span class="seviye" data-seviye="1"></span></td>
+    </tr>
+    <tr>
+      <td>2, Deniyorum</td>
+      <td>Yardımla yapabiliyorum.</td>
+      <td><span class="seviye" data-seviye="2"></span></td>
+    </tr>
+    <tr>
+      <td>3, Yapabiliyorum</td>
+      <td>Tek başıma yapabiliyorum.</td>
+      <td><span class="seviye" data-seviye="3"></span></td>
+    </tr>
+    <tr>
+      <td>4, Öğretebilirim</td>
+      <td>Bir arkadaşıma da öğretebilirim.</td>
+      <td><span class="seviye" data-seviye="4"></span></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="numaralı-adımlar">Numaralı adımlar</h2>
+
+<p>Yalnızca gerçekten sıralı süreçler için kullanılır; örneğin yıldız projenin yedi adımı.</p>
+
+<ol class="adimlar">
+  <li><strong>Problem ve amaç</strong>
+Neyi çözmek ya da öğrenmek istedik?</li>
+  <li><strong>Araştırma</strong>
+Başlamadan önce neyi araştırdık?</li>
+  <li><strong>Fikir ve tasarım</strong>
+Hangi fikirleri ürettik, hangisini neden seçtik?</li>
+</ol>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> <span class="gs">**Problem ve amaç**</span>
+   Neyi çözmek istedik?
+<span class="p">2.</span> <span class="gs">**Araştırma**</span>
+   ...
+{: .adimlar}
+</code></pre></div></div>
+
+<h2 id="kontrol-listesi">Kontrol listesi</h2>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Kapak ve “Ben kimim?” sayfası</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />İki atölye bölümü</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Köprü sayfası ve 7. sınıf proje fikri</li>
+</ul>
+
+<h2 id="kanıt-kartı">Kanıt kartı</h2>
+
+<article class="kanit" data-atolye="yz">
+<header class="kanit__ust">
+<span class="kanit__no">Kanıt 1</span>
+<h3 class="kanit__baslik">Önyargı deneyi</h3>
+</header>
+<figure class="kanit__gorsel"><img src="../assets/img/ornek/onyargi.png" alt="İki modelin beyaz, tekir ve siyah kedileri tanıma oranlarını karşılaştıran çubuk grafik" loading="lazy" decoding="async" /></figure>
+<dl class="kanit__alanlar">
+<div><dt>Tarih ve hafta</dt><dd>17 Ekim 2026, 3. hafta</dd></div>
+<div><dt>Bu ne?</dt><dd>Teachable Machine ile <strong>kedi mi, değil mi?</strong> modeli eğittik. İlk modele yalnızca beyaz kedi fotoğrafı verdik; model siyah kedileri tanıyamadı.
+</dd></div>
+<div><dt>Bireysel ya da grup, rolüm</dt><dd>İkili çalışma. Fotoğrafları ben seçtim.</dd></div>
+<div><dt>Ne öğrendim?</dt><dd>Model yalnızca gördüğünü bilir. Veri tek tip olursa model de önyargılı olur.
+</dd></div>
+<div><dt>Yapay zekâ</dt><dd>Teachable Machine (model eğitme aracı). Üretken yapay zekâ kullanmadım.</dd></div><div><dt>Dosya adı</dt><dd><code>2026-10-17_YZ_onyargi-deneyi.png</code></dd></div>
+</dl>
+</article>
+
+<article class="kanit" data-atolye="bk">
+<header class="kanit__ust">
+<span class="kanit__no">Kanıt 4</span>
+<h3 class="kanit__baslik">Güvenli güneş gözlemi</h3><span class="kanit__rozet">Zorunlu kanıt</span>
+</header>
+<dl class="kanit__alanlar">
+<div><dt>Tarih ve hafta</dt><dd>20 Mart 2027</dd></div>
+<div><dt>Bu ne?</dt><dd>Ekinoks gününde güneş filtreli teleskopla iki güneş lekesi grubunu çizdim.
+</dd></div>
+<div><dt>Bireysel ya da grup, rolüm</dt><dd>Grup gözlemi; kayıt tutan bendim.</dd></div>
+<div><dt>Ne öğrendim?</dt><dd>Güvenlik kuralları sıkıcı değil, gözlerimizi koruyor.
+</dd></div>
+<div><dt>Yapay zekâ</dt><dd>Hayır</dd></div><div><dt>Dosya adı</dt><dd><code>2027-03-20_BK_gunes-lekesi.pdf</code></dd></div>
+</dl>
+</article>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>kanit-karti.html<span class="w"> </span><span class="na">no</span><span class="o">=</span><span class="s2">"1"</span><span class="w"> </span><span class="na">baslik</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">atolye</span><span class="o">=</span><span class="s2">"yz"</span><span class="w"> </span><span class="na">tarih</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">ne</span><span class="o">=</span><span class="s2">"..."</span><span class="w">
+   </span><span class="na">rol</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">ogrendim</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">yz</span><span class="o">=</span><span class="s2">"Hayır"</span><span class="w"> </span><span class="na">dosya</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">gorsel</span><span class="o">=</span><span class="s2">"/assets/img/..."</span><span class="w"> </span><span class="na">gorsel_alt</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">zorunlu</span><span class="o">=</span><span class="kc">true</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div>
+
+<h2 id="yapay-zekâ-beyanı">Yapay zekâ beyanı</h2>
+
+<aside class="beyan">
+<p class="beyan__baslik">Yapay zekâ beyanı</p>
+<dl>
+<div><dt>Kullandım mı?</dt><dd><span class="beyan__isaret beyan__isaret--evet">Evet</span></dd></div><div><dt>Hangi araç?</dt><dd>Laboratuvarın yerel yapay zekâ asistanı</dd></div><div><dt>Ne için?</dt><dd>Streamlit dosya yükleme kodunun ilk taslağı</dd></div><div><dt>Benim katkım</dt><dd>Özelliklerin sırasının modelle uyuşmadığını ben buldum ve düzelttim.</dd></div>
+</dl>
+</aside>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>yz-beyan.html<span class="w"> </span><span class="na">kullandim</span><span class="o">=</span><span class="kc">true</span><span class="w"> </span><span class="na">arac</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">amac</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="na">katki</span><span class="o">=</span><span class="s2">"..."</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div>
+
+<h2 id="figür">Figür</h2>
+
+<figure class="figur">
+<img src="../assets/img/ornek/roket_grafik.png" alt="3, 4 ve 6 kanatçıklı roketlerin ortalama uçuş yüksekliklerini gösteren çubuk grafik" loading="lazy" decoding="async" /><figcaption>Her çubuk üç denemenin ortalaması. En yüksek ortalama 4 kanatçıklı rokette.</figcaption>
+</figure>
+
+<h2 id="kod-bloğu">Kod bloğu</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">dosya</span> <span class="o">=</span> <span class="n">st</span><span class="p">.</span><span class="nf">file_uploader</span><span class="p">(</span><span class="sh">"</span><span class="s">Gökyüzü fotoğrafı yükle</span><span class="sh">"</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">jpg</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">png</span><span class="sh">"</span><span class="p">])</span>
+<span class="k">if</span> <span class="n">dosya</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="n">tahmin</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">predict</span><span class="p">([</span><span class="n">ozellik</span><span class="p">])[</span><span class="mi">0</span><span class="p">]</span>  <span class="c1"># modelin tahmini
+</span>    <span class="n">st</span><span class="p">.</span><span class="nf">success</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Tahmin: </span><span class="si">{</span><span class="n">tahmin</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="alıntı">Alıntı</h2>
+
+<blockquote>
+  <p>“Yıl sonunda kendi topladığım verilerle eğittiğim bir yapay zekâ modelini internette yayınlamak istiyorum.”</p>
+</blockquote>
+
+    </div>
+
+    
+  </article>
+
+  <aside class="belge__sag" aria-label="Bu sayfada">
+    <nav class="sayfa-ici" data-sayfa-ici hidden>
+      <p class="sayfa-ici__baslik">Bu sayfada</p>
+      <ol></ol>
+    </nav>
+  </aside>
+</div>
+
+</main>
+<footer class="alt">
+  <div class="alt__ic kap">
+    <div class="alt__kurum">
+      <a class="marka marka--kucuk" href="../index.html"><svg class="logo" viewBox="0 0 40 40" aria-hidden="true" focusable="false" fill="none" stroke-width="5" stroke-linecap="round">
+  <path d="M21.77 5.61A14.5 14.5 0 0 1 34.39 18.23" stroke="var(--yz)"/>
+  <path d="M34.39 21.77A14.5 14.5 0 0 1 21.77 34.39" stroke="var(--bk)"/>
+  <path d="M18.23 34.39A14.5 14.5 0 0 1 5.61 21.77" stroke="var(--d3)"/>
+  <path d="M5.61 18.23A14.5 14.5 0 0 1 18.23 5.61" stroke="var(--hm)"/>
+  <circle cx="20" cy="20" r="4.2" fill="var(--murekkep)" stroke="none"/>
+</svg>
+<span class="marka__ad">Küçükçekmece Çocuk Üniversitesi</span></a>
+      <p>6. sınıf uzmanlık atölyeleri, 2026–2027 eğitim yılı. Sürüm 1.0 (taslak), son güncelleme 05.10.2026.</p>
+    </div>
+    <nav class="alt__baglantilar" aria-label="Alt menü">
+      <ul>
+        <li><a href="../kilavuz/index.html">Kılavuz</a></li>
+        <li><a href="../ornek-portfolyo/index.html">Örnek portfolyo</a></li>
+        <li><a href="../kilavuz/gizlilik/index.html">Gizlilik ve güvenlik</a></li>
+        <li><a href="../kilavuz/ekler/index.html">Yazdırılabilir formlar</a></li>
+        <li><a href="../bilesenler/index.html">Öğretmenler için: bileşenler</a></li>
+      </ul>
+    </nav>
+    <p class="alt__not">Bu sitede gerçek öğrenci adı veya fotoğrafı yayınlanmaz. Örnek portfolyodaki öğrenci, ekip arkadaşları ve veriler kurgusaldır.</p>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>

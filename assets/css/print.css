@@ -1,0 +1,16 @@
+/* ==========================================================================
+   print.css — Kılavuzu yazdırırken menüleri gizler, sade bir sayfa üretir
+   ========================================================================== */
+@page { size: A4; margin: 18mm 16mm; }
+:root { --kagit: #fff; --yuzey: #fff; }
+html { font-size: 10.5pt; }
+body { background: #fff; color: #000; }
+.ust, .alt, .belge__sol, .belge__sag, .belge__araclar, .gecis, .atla, .menu-dugme { display: none !important; }
+.belge { display: block; padding: 0; }
+.metin { max-width: none; border-left: 0; padding-left: 0; }
+.metin h2::before { display: none; }
+.metin h2 { break-after: avoid; }
+.kanit, .kutu, .beyan, .tablo-kap, figure, tr { break-inside: avoid; }
+.tablo-kap { overflow: visible; }
+a { color: inherit; text-decoration: none; }
+.metin a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; }

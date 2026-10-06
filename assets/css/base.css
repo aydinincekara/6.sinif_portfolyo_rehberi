@@ -1,0 +1,85 @@
+/* ==========================================================================
+   base.css — Sıfırlama ve temel öğeler
+   ========================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-size: 106.25%; /* 17px */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--ust-yukseklik) + 1rem);
+}
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  margin: 0;
+  background: var(--kagit);
+  color: var(--metin);
+  font-family: var(--yazi-govde);
+  font-size: var(--fs-0);
+  font-weight: 350;
+  line-height: var(--satir);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--yazi-baslik);
+  color: var(--murekkep);
+  line-height: 1.15;
+  font-weight: 700;
+  font-stretch: 92%;
+  margin: 0;
+  text-wrap: balance;
+}
+h1 { font-size: var(--fs-4); letter-spacing: -0.015em; }
+h2 { font-size: var(--fs-3); letter-spacing: -0.01em; }
+h3 { font-size: var(--fs-1); font-stretch: 100%; }
+h4 { font-size: var(--fs-0); font-stretch: 100%; }
+
+p { margin: 0; }
+strong, b { font-weight: 600; }
+
+a {
+  color: var(--murekkep);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+}
+a:hover { text-decoration-color: currentColor; }
+
+:focus-visible {
+  outline: 3px solid var(--bolum);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+img, svg { max-width: 100%; height: auto; display: block; }
+
+code, kbd, pre { font-family: var(--yazi-kod); font-size: 0.88em; }
+
+hr { border: 0; border-top: 1px solid var(--cizgi); margin: var(--b-7) 0; }
+
+::selection { background: var(--bolum-acik); color: var(--metin); }
+
+.gizli {
+  position: absolute !important;
+  width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.atla {
+  position: absolute; left: var(--b-4); top: -100px; z-index: 100;
+  background: var(--murekkep); color: var(--kagit);
+  padding: var(--b-2) var(--b-4); border-radius: var(--r-kucuk);
+}
+.atla:focus { top: var(--b-3); }
+
+main:focus { outline: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
